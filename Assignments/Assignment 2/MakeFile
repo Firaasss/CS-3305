@@ -1,0 +1,8 @@
+part1: faboushapart1.c 
+	gcc -pthread -o part1 faboushapart1.c -I.
+
+part2: faboushapart2.c 
+	gcc -o part2 faboushapart2.c  -I.
+clean:
+	rm -f part1*.o core part1
+	rm -f part2*.o core part2
